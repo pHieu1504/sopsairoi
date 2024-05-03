@@ -7,6 +7,8 @@ const noBtn = document.querySelector(".no-btn");
 yesBtn.addEventListener("click", () => {
   question.innerHTML = "Sốp cảm ơn ạ 😘";
   gif.src = "https://media1.giphy.com/media/iCVzZwwE6QNAV2tEE0/giphy.gif";
+  yesBtn.style.display = "none"; // Hide yes button
+  noBtn.style.display = "none"; // Hide no button
 });
 
 noBtn.addEventListener("mouseover", () => {
